@@ -4,7 +4,7 @@ base nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 ```
 $ apt-get update
 
-$ apt-get install python3 python3-pip git
+$ apt-get install python3 python3-pip git git-lfs
 $ pip install --upgrade setuptools
 
 $ echo "alias python='python3'" >> /etc/bash.bashrc
