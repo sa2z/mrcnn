@@ -1,6 +1,8 @@
 
 base nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
 
+nvidia-docker run -it --rm --name mn -v /code:/code -e NVIDIA_VISIBLE_DEVICES=4,5 -p 8080:8080 sa2z/mrcnn:0.1
+
 ```
 $ apt-get update
 
